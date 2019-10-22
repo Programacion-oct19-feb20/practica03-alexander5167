@@ -5,28 +5,32 @@
  */
 package ejercicio03;
 
+import java.util.Scanner;
+
 /**
  *
  * @author UTPL
  */
-public class Ejercicio03 {
+public class Ejercicio06 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
         String nombre;
         String universidad;
+        System.out.println("Ingrese su nombre por favor:");
+        nombre =entrada.nextLine();
         
-        nombre ="Jorge Alexander";
-        universidad = "utpl";
+        System.out.println("Ingrese su Universidad");
+        universidad = entrada.nextLine();
         
-        System.out.println("Mi nombre es " +nombre);
-        System.out.println("Mi universidad es " +universidad);
         
-        System.out.print ("Mi nombre es"+ nombre + "\n");
-        System.out.print ("Mi universidad es"+ universidad  );
+        
+    
+       
         
     
 }
